@@ -10,4 +10,15 @@ namespace NameSpaceDemo
             Debug.Log("My Print Method from name sapce");
         }
     }
+
+    namespace MyUI
+    {
+        public class MyUI
+        {
+            public static void MyPrintUI()
+            {
+                Debug.Log("My UI Method");
+            }
+        }
+    }
 }
