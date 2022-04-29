@@ -15,6 +15,12 @@ public class NameSpace : MonoBehaviour
     {
         NameSpaceDemo.MyNameClass.MyPrint();
         MyUI.MyPrintUI();
+        Debug.Log(MyDemoClass.name);
+        Debug.Log(MyDemoClass.playerSpeed);
+        Debug.Log(MyDemoClass.playerRotation);
+        Debug.Log(MyDemoClass.isAlive);
+
+
     }
 
     // Update is called once per frame
