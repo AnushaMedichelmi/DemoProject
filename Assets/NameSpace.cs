@@ -8,6 +8,8 @@ using NameSpaceDemo.MyUI;
 //syntax:namespace name {}
 public class NameSpace : MonoBehaviour
 {
+
+    public MyNameClass MyDemoClass=new MyNameClass();
     // Start is called before the first frame update
     void Start()
     {
